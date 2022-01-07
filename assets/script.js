@@ -19,3 +19,4 @@ function getDate() {
 
 // This will cause the page to dynamically update the time every second
 setInterval(getDate, 1000);
+

@@ -83,3 +83,91 @@ function checkTime() {
 }
 // function call will start the code in the function
 checkTime();
+
+// constants to reference the save buttons
+const btnSave9 = document.getElementById("saveBtn9");
+const btnSave10 = document.getElementById("saveBtn10");
+const btnSave11 = document.getElementById("saveBtn11");
+const btnSave12 = document.getElementById("saveBtn12");
+const btnSave13 = document.getElementById("saveBtn13");
+const btnSave14 = document.getElementById("saveBtn14");
+const btnSave15 = document.getElementById("saveBtn15");
+const btnSave16 = document.getElementById("saveBtn16");
+const btnSave17 = document.getElementById("saveBtn17");
+
+// constants to reference the text areas
+const text9 = document.getElementById("hour9");
+const text10 = document.getElementById("hour10");
+const text11 = document.getElementById("hour11");
+const text12 = document.getElementById("hour12");
+const text13 = document.getElementById("hour13");
+const text14 = document.getElementById("hour14");
+const text15 = document.getElementById("hour15");
+const text16 = document.getElementById("hour16");
+const text17 = document.getElementById("hour17");
+
+// adds the save option to each row
+btnSave9.addEventListener("click", function(event) {
+    event.preventDefault();
+    // stores the entered input in localstorage with key and value
+    localStorage.setItem("textContent9", text9.value);
+    console.log(text9.value);
+});
+// loads the stored information on page reload
+text9.textContent = localStorage.getItem("textContent9");
+
+btnSave10.addEventListener("click", function(event) {
+    event.preventDefault();
+    localStorage.setItem("textContent10", text10.value);
+    console.log(text10.value);
+});
+text10.textContent = localStorage.getItem("textContent10");
+
+btnSave11.addEventListener("click", function(event) {
+    event.preventDefault();
+    localStorage.setItem("textContent11", text11.value);
+    console.log(text11.value);
+});
+text11.textContent = localStorage.getItem("textContent11");
+
+btnSave12.addEventListener("click", function(event) {
+    event.preventDefault();
+    localStorage.setItem("textContent12", text12.value);
+    console.log(text12.value);
+});
+text12.textContent = localStorage.getItem("textContent12");
+
+btnSave13.addEventListener("click", function(event) {
+    event.preventDefault();
+    localStorage.setItem("textContent13", text13.value);
+    console.log(text13.value);
+});
+text13.textContent = localStorage.getItem("textContent13");
+
+btnSave14.addEventListener("click", function(event) {
+    event.preventDefault();
+    localStorage.setItem("textContent14", text14.value);
+    console.log(text14.value);
+});
+text14.textContent = localStorage.getItem("textContent14");
+
+btnSave15.addEventListener("click", function(event) {
+    event.preventDefault();
+    localStorage.setItem("textContent15", text15.value);
+    console.log(text15.value);
+});
+text15.textContent = localStorage.getItem("textContent15");
+
+btnSave16.addEventListener("click", function(event) {
+    event.preventDefault();
+    localStorage.setItem("textContent16", text16.value);
+    console.log(text16.value);
+});
+text16.textContent = localStorage.getItem("textContent16");
+
+btnSave17.addEventListener("click", function(event) {
+    event.preventDefault();
+    localStorage.setItem("textContent17", text17.value);
+    console.log(text17.value);
+});
+text17.textContent = localStorage.getItem("textContent17");

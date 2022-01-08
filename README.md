@@ -24,10 +24,10 @@ jQuery is used to make HTML document traversing which factored a significant por
 
 ## Screenshots and Gifs
 
-* ![Demonstration Gif]()
-* ![Screenshot 1]()
-* ![Screenshot 2]()
-* ![Screenshot 3]()
+* ![Demonstration Gif](https://github.com/PentaZoned/work-day-scheduler/blob/main/assets/images/gifs/demonstration.gif)
+* ![Screenshot 1](https://github.com/PentaZoned/work-day-scheduler/blob/main/assets/images/screenshots/screenshot1.jpg)
+* ![Screenshot 2](https://github.com/PentaZoned/work-day-scheduler/blob/main/assets/images/screenshots/screenshot2.jpg)
+* ![Screenshot 3](https://github.com/PentaZoned/work-day-scheduler/blob/main/assets/images/screenshots/screenshot3.jpg)
 
 ## Authors
 

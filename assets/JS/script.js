@@ -12,7 +12,7 @@ getDate();
 // This function uses moment.js to take the current date and time and formats it
 function getDate() {
     // sets the format for the current date and time
-    var today = moment().format("dddd, MMMM Do, YYYY, hh:mm:ss");
+    var today = moment().format("LLLL");
     // sets the text of the current date and time to the header
     $("#currentDay").text(today);
 }

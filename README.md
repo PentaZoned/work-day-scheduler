@@ -8,12 +8,15 @@ When the user clicks on the middle column between the hour column and the save b
 
 Moment.js is used to format the time and date as well as used for calculating functions for the color-coding.
 
+jQuery is used to make HTML document traversing which factored a significant portion for some of the functions.
+
 ## Built With
 
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 * [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 * [Moment.js](https://momentjs.com/docs/)
+* [jQuery API](https://api.jquery.com/)
 
 ## Deployed Link
 
@@ -21,10 +24,10 @@ Moment.js is used to format the time and date as well as used for calculating fu
 
 ## Screenshots and Gifs
 
-* []()
-* []()
-* []()
-* []()
+* ![Demonstration Gif]()
+* ![Screenshot 1]()
+* ![Screenshot 2]()
+* ![Screenshot 3]()
 
 ## Authors
 

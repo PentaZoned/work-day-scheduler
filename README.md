@@ -1,58 +1,38 @@
 # work-day-scheduler
 
-One paragraph of project description goes here.
+The objective is to create a small calendar application that saves events for each hour of a standard workday schedule. By using this application, the user should be able to manage time more effectively.
 
-## Getting Started
+When the user opens the planner, they are shown the current date and time displayed at the top. Below is a day-calendar with the standard 9 am - 5 pm schedule with each hour specifically shown in an individual row. The middle column will change colors depending on the time of the day. Gray means that hour has passed already, red means it is the current hour, and green means it has yet to pass.
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+When the user clicks on the middle column between the hour column and the save button column, they are able to enter events. They can save this event by clicking the save button on the right of the hour row. The events for that specific hour row should persist even after reload.
 
-### Prerequisites
-
-What things you need to install the software and how to install them.
-
-```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development environment running.
-
-Say what the step will be:
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo.
-
+Moment.js is used to format the time and date as well as used for calculating functions for the color-coding.
 
 ## Built With
 
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 * [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+* [Moment.js](https://momentjs.com/docs/)
 
 ## Deployed Link
 
-* [See Live Site](#)
+* [See Live Site](https://pentazoned.github.io/work-day-scheduler/)
 
+## Screenshots and Gifs
+
+* []()
+* []()
+* []()
+* []()
 
 ## Authors
 
-* **YOUR NAME** 
+* **Bradley Le** 
 
-- [Link to Portfolio Site](#)
-- [Link to Github](https://github.com/)
-- [Link to LinkedIn](https://www.linkedin.com/)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+- [Link to Portfolio Site](https://pentazoned.github.io/portfolio-1/)
+- [Link to Github](https://github.com/PentaZoned)
+- [Link to LinkedIn](https://www.linkedin.com/in/bradley-le-/)
 
 ## License
 
@@ -60,6 +40,4 @@ This project is licensed under the MIT License
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code, libraries, packages, or UI was used  / inspired from
-* Inspiration
-* etc
+Thank you to my instructor and TAs for providing the starter code and demonstrations on the topics used in this project.
